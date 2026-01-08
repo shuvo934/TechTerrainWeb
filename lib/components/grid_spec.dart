@@ -1,5 +1,3 @@
-import 'package:tech_terrain_web/components/section_shell.dart';
-
 class GridSpec {
   final int columns;
   final double cardWidth;

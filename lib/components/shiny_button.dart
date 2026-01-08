@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:go_router/go_router.dart';
 import 'package:responsive_builder/responsive_builder.dart';
-import 'package:tech_terrain_web/core/loading_overlay.dart';
 import 'package:tech_terrain_web/utilities/constants.dart';
-import 'package:url_launcher/url_launcher.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class ShinyButton extends StatefulWidget {
@@ -162,17 +159,17 @@ class _ShinyButtonState extends State<ShinyButton>
     );
   }
 
-  String _selectedLabelFor(String path) {
-    if (path.startsWith('/about')) {
-      return 'About';
-    } else if (path.startsWith('/services')) {
-      return 'Services';
-    } else if (path.startsWith('/career')) {
-      return 'Career';
-    } else if (path.startsWith('/contact')) {
-      return 'Contact';
-    } else {
-      return 'Home';
-    } // other anchors live on home
-  }
+  // String _selectedLabelFor(String path) {
+  //   if (path.startsWith('/about')) {
+  //     return 'About';
+  //   } else if (path.startsWith('/services')) {
+  //     return 'Services';
+  //   } else if (path.startsWith('/career')) {
+  //     return 'Career';
+  //   } else if (path.startsWith('/contact')) {
+  //     return 'Contact';
+  //   } else {
+  //     return 'Home';
+  //   } // other anchors live on home
+  // }
 }
