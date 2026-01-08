@@ -8,7 +8,6 @@ import 'package:tech_terrain_web/core/loading_overlay.dart';
 import 'package:visibility_detector/visibility_detector.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:tech_terrain_web/utilities/constants.dart';
-import '../components/fade_in_svg_asset.dart';
 
 class HeroSection extends StatefulWidget {
   const HeroSection();
@@ -126,11 +125,6 @@ class _HeroSectionState extends State<HeroSection>
   void _safeReverse() {
     if (!_alive) return;
     _ac.reverse();
-  }
-
-  void _safeSetState(VoidCallback fn) {
-    if (!_alive) return;
-    setState(fn);
   }
 
   Timer? _visDebounce;

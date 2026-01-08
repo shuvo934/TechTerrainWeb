@@ -44,7 +44,7 @@ class _PartnersSectionState extends State<PartnersSection>
   bool _shown = false;
   bool _autoplay = true;
   final CarouselSliderController _controller = CarouselSliderController();
-  int _current = 0;
+  // int _current = 0;
 
   bool _disposed = false; // 👈 add
   bool get _alive => mounted && !_disposed; // 👈 helper
@@ -197,8 +197,8 @@ class _PartnersSectionState extends State<PartnersSection>
                 pauseAutoPlayOnTouch: true,
                 pauseAutoPlayOnManualNavigate: true,
                 enlargeCenterPage: false,
-                onPageChanged:
-                    (i, _) => setState(() => _current = i % _logos.length),
+                // onPageChanged:
+                //     (i, _) => setState(() => _current = i % _logos.length),
               ),
             ),
           );

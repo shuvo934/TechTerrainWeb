@@ -3,7 +3,6 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:tech_terrain_web/components/fade_in_svg_asset.dart';
 import 'package:tech_terrain_web/components/section_shell.dart';
 import 'package:tech_terrain_web/utilities/constants.dart';
 import 'package:visibility_detector/visibility_detector.dart';

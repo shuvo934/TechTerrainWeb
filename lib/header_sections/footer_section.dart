@@ -291,10 +291,10 @@ class _FooterSectionState extends State<FooterSection> {
         builder: (context, sizing) {
           final isMobile = sizing.deviceScreenType == DeviceScreenType.mobile;
           final isTablet = sizing.deviceScreenType == DeviceScreenType.tablet;
-          final isDesktop =
-              sizing.deviceScreenType == DeviceScreenType.desktop ||
-              sizing.deviceScreenType ==
-                  DeviceScreenType.watch; // treat watch as desktop fallback
+          // final isDesktop =
+          //     sizing.deviceScreenType == DeviceScreenType.desktop ||
+          //     sizing.deviceScreenType ==
+          //         DeviceScreenType.watch; // treat watch as desktop fallback
 
           final pad =
               isMobile
