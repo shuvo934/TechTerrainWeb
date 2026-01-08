@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Brand: #204EB8 (blue), #FFCC33 (amber), #678EE0 (light blue) -->
+  <defs>
+    <!-- soft background gradient -->
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="900" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F6F8FF"/>
+    </linearGradient>
+
+    <!-- diagonal ribbon gradient -->
+    <linearGradient id="ribbon" x1="200" y1="720" x2="1500" y2="860" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#204EB8"/>
+      <stop offset="1" stop-color="#678EE0"/>
+    </linearGradient>
+
+    <!-- big brand blob -->
+    <radialGradient id="blob1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(1320 140) rotate(40) scale(460 360)">
+      <stop offset="0" stop-color="#204EB8" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#204EB8" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- light-blue blob -->
+    <radialGradient id="blob2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(240 180) rotate(-20) scale(520 380)">
+      <stop offset="0" stop-color="#678EE0" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#678EE0" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- subtle wave fill -->
+    <linearGradient id="wave" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#204EB8" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#678EE0" stop-opacity="0.04"/>
+    </linearGradient>
+  </defs>
+
+  <!-- base background -->
+  <rect width="1600" height="900" fill="url(#bg)"/>
+
+  <!-- decorative blobs -->
+  <rect x="0" y="0" width="1600" height="900" fill="url(#blob2)"/>
+  <rect x="0" y="0" width="1600" height="900" fill="url(#blob1)"/>
+
+  <!-- dotted grids (top-right & bottom-left) -->
+  <g opacity="0.35" fill="#204EB8">
+    <!-- top-right grid -->
+    <g opacity="0.30">
+      <!-- 7x4 dots -->
+      <circle cx="1340" cy="120" r="2.2"/>
+      <circle cx="1370" cy="120" r="2.2"/>
+      <circle cx="1400" cy="120" r="2.2"/>
+      <circle cx="1430" cy="120" r="2.2"/>
+      <circle cx="1460" cy="120" r="2.2"/>
+      <circle cx="1490" cy="120" r="2.2"/>
+      <circle cx="1520" cy="120" r="2.2"/>
+
+      <circle cx="1340" cy="150" r="2.2"/>
+      <circle cx="1370" cy="150" r="2.2"/>
+      <circle cx="1400" cy="150" r="2.2"/>
+      <circle cx="1430" cy="150" r="2.2"/>
+      <circle cx="1460" cy="150" r="2.2"/>
+      <circle cx="1490" cy="150" r="2.2"/>
+      <circle cx="1520" cy="150" r="2.2"/>
+
+      <circle cx="1340" cy="180" r="2.2"/>
+      <circle cx="1370" cy="180" r="2.2"/>
+      <circle cx="1400" cy="180" r="2.2"/>
+      <circle cx="1430" cy="180" r="2.2"/>
+      <circle cx="1460" cy="180" r="2.2"/>
+      <circle cx="1490" cy="180" r="2.2"/>
+      <circle cx="1520" cy="180" r="2.2"/>
+
+      <circle cx="1340" cy="210" r="2.2"/>
+      <circle cx="1370" cy="210" r="2.2"/>
+      <circle cx="1400" cy="210" r="2.2"/>
+      <circle cx="1430" cy="210" r="2.2"/>
+      <circle cx="1460" cy="210" r="2.2"/>
+      <circle cx="1490" cy="210" r="2.2"/>
+      <circle cx="1520" cy="210" r="2.2"/>
+    </g>
+
+    <!-- bottom-left grid -->
+    <g opacity="0.25">
+      <!-- 6x4 dots -->
+      <circle cx="120" cy="720" r="2.2"/>
+      <circle cx="150" cy="720" r="2.2"/>
+      <circle cx="180" cy="720" r="2.2"/>
+      <circle cx="210" cy="720" r="2.2"/>
+      <circle cx="240" cy="720" r="2.2"/>
+      <circle cx="270" cy="720" r="2.2"/>
+
+      <circle cx="120" cy="750" r="2.2"/>
+      <circle cx="150" cy="750" r="2.2"/>
+      <circle cx="180" cy="750" r="2.2"/>
+      <circle cx="210" cy="750" r="2.2"/>
+      <circle cx="240" cy="750" r="2.2"/>
+      <circle cx="270" cy="750" r="2.2"/>
+
+      <circle cx="120" cy="780" r="2.2"/>
+      <circle cx="150" cy="780" r="2.2"/>
+      <circle cx="180" cy="780" r="2.2"/>
+      <circle cx="210" cy="780" r="2.2"/>
+      <circle cx="240" cy="780" r="2.2"/>
+      <circle cx="270" cy="780" r="2.2"/>
+
+      <circle cx="120" cy="810" r="2.2"/>
+      <circle cx="150" cy="810" r="2.2"/>
+      <circle cx="180" cy="810" r="2.2"/>
+      <circle cx="210" cy="810" r="2.2"/>
+      <circle cx="240" cy="810" r="2.2"/>
+      <circle cx="270" cy="810" r="2.2"/>
+    </g>
+  </g>
+
+  <!-- amber accents -->
+  <g opacity="0.9" fill="#FFCC33">
+    <circle cx="310" cy="140" r="4"/>
+    <circle cx="1290" cy="310" r="3.5"/>
+    <circle cx="1040" cy="120" r="4.5"/>
+    <circle cx="880" cy="740" r="3.5"/>
+  </g>
+
+  <!-- soft bottom waves -->
+  <path d="M0 690 C260 760, 520 720, 800 760 C1080 800, 1320 740, 1600 790 L1600 900 L0 900 Z"
+      fill="url(#wave)"/>
+  <path d="M0 770 C220 820, 540 780, 820 820 C1100 860, 1360 820, 1600 860 L1600 900 L0 900 Z"
+      fill="#204EB8" opacity="0.06"/>
+
+  <!-- diagonal ribbon (behind content area) -->
+  <path d="M-20 820 C420 760, 980 880, 1620 840 L1620 900 L-20 900 Z" fill="url(#ribbon)" opacity="0.18"/>
+</svg>

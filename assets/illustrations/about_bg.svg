@@ -1,0 +1,135 @@
+<svg width="1600" height="540" viewBox="0 0 1600 540" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <!-- Base background -->
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F6F9FF"/>
+    </linearGradient>
+
+    <!-- Brand gradients -->
+    <linearGradient id="blue1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#204EB8"/>
+      <stop offset="1" stop-color="#678EE0"/>
+    </linearGradient>
+    <linearGradient id="blue2" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#678EE0"/>
+      <stop offset="1" stop-color="#204EB8"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFCC33"/>
+      <stop offset="1" stop-color="#FFD875"/>
+    </linearGradient>
+
+    <!-- Soft radial accents -->
+    <radialGradient id="softBlue" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(260 120) scale(220)">
+      <stop offset="0" stop-color="#204EB8" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#204EB8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="softLite" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(1380 440) scale(260)">
+      <stop offset="0" stop-color="#678EE0" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#678EE0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1600" height="540" fill="url(#bg)"/>
+
+  <!-- Angular brand shapes (subtle) -->
+  <path d="M0 90 L0 0 L1600 0 L1600 110 C1360 140 1140 130 920 110 C700 90 380 70 0 90 Z"
+      fill="url(#blue1)" opacity="0.12"/>
+  <path d="M0 380 C300 420 640 430 940 418 C1200 408 1420 390 1600 430 L1600 540 L0 540 Z"
+      fill="url(#blue2)" opacity="0.12"/>
+
+
+  <!-- Soft radial glows -->
+  <circle cx="260" cy="120" r="220" fill="url(#softBlue)"/>
+  <circle cx="1380" cy="440" r="260" fill="url(#softLite)"/>
+
+  <!-- Tech grid (top-left) -->
+  <g opacity="0.35">
+    <circle cx="60" cy="80" r="2.2" fill="#204EB8" opacity="0.35"/>
+    <circle cx="88" cy="80" r="2.2" fill="#204EB8" opacity="0.35"/>
+    <circle cx="116" cy="80" r="2.2" fill="#204EB8" opacity="0.35"/>
+    <circle cx="144" cy="80" r="2.2" fill="#204EB8" opacity="0.35"/>
+    <circle cx="172" cy="80" r="2.2" fill="#204EB8" opacity="0.35"/>
+    <circle cx="200" cy="80" r="2.2" fill="#204EB8" opacity="0.35"/>
+    <circle cx="228" cy="80" r="2.2" fill="#204EB8" opacity="0.35"/>
+    <circle cx="256" cy="80" r="2.2" fill="#204EB8" opacity="0.35"/>
+    <circle cx="284" cy="80" r="2.2" fill="#204EB8" opacity="0.35"/>
+    <circle cx="312" cy="80" r="2.2" fill="#204EB8" opacity="0.35"/>
+    <circle cx="60" cy="102" r="2.2" fill="#204EB8" opacity="0.35"/>
+    <circle cx="88" cy="102" r="2.2" fill="#204EB8" opacity="0.35"/>
+    <circle cx="116" cy="102" r="2.2" fill="#204EB8" opacity="0.35"/>
+    <circle cx="144" cy="102" r="2.2" fill="#204EB8" opacity="0.35"/>
+    <circle cx="172" cy="102" r="2.2" fill="#204EB8" opacity="0.35"/>
+    <circle cx="200" cy="102" r="2.2" fill="#204EB8" opacity="0.35"/>
+    <circle cx="228" cy="102" r="2.2" fill="#204EB8" opacity="0.35"/>
+    <circle cx="256" cy="102" r="2.2" fill="#204EB8" opacity="0.35"/>
+    <circle cx="284" cy="102" r="2.2" fill="#204EB8" opacity="0.35"/>
+    <circle cx="312" cy="102" r="2.2" fill="#204EB8" opacity="0.35"/>
+    <circle cx="60" cy="124" r="2.2" fill="#204EB8" opacity="0.35"/>
+    <circle cx="88" cy="124" r="2.2" fill="#204EB8" opacity="0.35"/>
+    <circle cx="116" cy="124" r="2.2" fill="#204EB8" opacity="0.35"/>
+    <circle cx="144" cy="124" r="2.2" fill="#204EB8" opacity="0.35"/>
+    <circle cx="172" cy="124" r="2.2" fill="#204EB8" opacity="0.35"/>
+    <circle cx="200" cy="124" r="2.2" fill="#204EB8" opacity="0.35"/>
+    <circle cx="228" cy="124" r="2.2" fill="#204EB8" opacity="0.35"/>
+    <circle cx="256" cy="124" r="2.2" fill="#204EB8" opacity="0.35"/>
+    <circle cx="284" cy="124" r="2.2" fill="#204EB8" opacity="0.35"/>
+    <circle cx="312" cy="124" r="2.2" fill="#204EB8" opacity="0.35"/>
+    <circle cx="60" cy="146" r="2.2" fill="#204EB8" opacity="0.35"/>
+    <circle cx="88" cy="146" r="2.2" fill="#204EB8" opacity="0.35"/>
+    <circle cx="116" cy="146" r="2.2" fill="#204EB8" opacity="0.35"/>
+    <circle cx="144" cy="146" r="2.2" fill="#204EB8" opacity="0.35"/>
+    <circle cx="172" cy="146" r="2.2" fill="#204EB8" opacity="0.35"/>
+    <circle cx="200" cy="146" r="2.2" fill="#204EB8" opacity="0.35"/>
+    <circle cx="228" cy="146" r="2.2" fill="#204EB8" opacity="0.35"/>
+    <circle cx="256" cy="146" r="2.2" fill="#204EB8" opacity="0.35"/>
+    <circle cx="284" cy="146" r="2.2" fill="#204EB8" opacity="0.35"/>
+    <circle cx="312" cy="146" r="2.2" fill="#204EB8" opacity="0.35"/>
+    <circle cx="60" cy="168" r="2.2" fill="#204EB8" opacity="0.35"/>
+    <circle cx="88" cy="168" r="2.2" fill="#204EB8" opacity="0.35"/>
+    <circle cx="116" cy="168" r="2.2" fill="#204EB8" opacity="0.35"/>
+    <circle cx="144" cy="168" r="2.2" fill="#204EB8" opacity="0.35"/>
+    <circle cx="172" cy="168" r="2.2" fill="#204EB8" opacity="0.35"/>
+    <circle cx="200" cy="168" r="2.2" fill="#204EB8" opacity="0.35"/>
+    <circle cx="228" cy="168" r="2.2" fill="#204EB8" opacity="0.35"/>
+    <circle cx="256" cy="168" r="2.2" fill="#204EB8" opacity="0.35"/>
+    <circle cx="284" cy="168" r="2.2" fill="#204EB8" opacity="0.35"/>
+    <circle cx="312" cy="168" r="2.2" fill="#204EB8" opacity="0.35"/>
+    <circle cx="60" cy="190" r="2.2" fill="#204EB8" opacity="0.35"/>
+    <circle cx="88" cy="190" r="2.2" fill="#204EB8" opacity="0.35"/>
+    <circle cx="116" cy="190" r="2.2" fill="#204EB8" opacity="0.35"/>
+    <circle cx="144" cy="190" r="2.2" fill="#204EB8" opacity="0.35"/>
+    <circle cx="172" cy="190" r="2.2" fill="#204EB8" opacity="0.35"/>
+    <circle cx="200" cy="190" r="2.2" fill="#204EB8" opacity="0.35"/>
+    <circle cx="228" cy="190" r="2.2" fill="#204EB8" opacity="0.35"/>
+    <circle cx="256" cy="190" r="2.2" fill="#204EB8" opacity="0.35"/>
+    <circle cx="284" cy="190" r="2.2" fill="#204EB8" opacity="0.35"/>
+    <circle cx="312" cy="190" r="2.2" fill="#204EB8" opacity="0.35"/>
+  </g>
+
+  <!-- Network connectors (diagonal) -->
+  <g opacity="0.6">
+    <path d="M260 320 C 420 260, 640 240, 820 300 C 1020 370, 1240 350, 1420 280"
+        stroke="url(#gold)" stroke-width="2.2" fill="none" opacity="0.4"/>
+    <path d="M660 260 C 760 240, 880 260, 960 300"
+        stroke="url(#gold)" stroke-width="2.2" fill="none" opacity="0.4"/>
+    <circle cx="260" cy="320" r="5" fill="url(#gold)" opacity="0.7"/>
+    <circle cx="660" cy="260" r="4.5" fill="url(#gold)" opacity="0.7"/>
+    <circle cx="820" cy="300" r="5" fill="url(#gold)" opacity="0.7"/>
+    <circle cx="960" cy="300" r="4.5" fill="url(#gold)" opacity="0.7"/>
+    <circle cx="1240" cy="350" r="5" fill="url(#gold)" opacity="0.7"/>
+    <circle cx="1420" cy="280" r="5" fill="url(#gold)" opacity="0.7"/>
+  </g>
+
+  <!-- Right-top corner wireframe box -->
+  <g opacity="0.20">
+    <path d="M1230 80 L1340 50 L1450 90 L1340 120 Z" fill="#204EB8" opacity="0.10"/>
+    <path d="M1340 50 L1450 90 L1450 160 L1340 120 Z" fill="#678EE0" opacity="0.10"/>
+    <path d="M1230 80 L1340 120 L1340 190 L1230 150 Z" fill="#204EB8" opacity="0.06"/>
+    <path d="M1340 120 L1450 160 L1340 190 L1230 150 Z" fill="#FFCC33" opacity="0.10"/>
+  </g>
+</svg>

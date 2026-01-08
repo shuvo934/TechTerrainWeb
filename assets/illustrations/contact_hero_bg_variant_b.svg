@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1600" height="520" viewBox="0 0 1600 520" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgB" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F7FAFF"/>
+      <stop offset="1" stop-color="#EEF2FF"/>
+    </linearGradient>
+    <linearGradient id="brandB" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#204EB8"/>
+      <stop offset="1" stop-color="#678EE0"/>
+    </linearGradient>
+    <linearGradient id="goldB" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFCC33"/>
+      <stop offset="1" stop-color="#FFD76B"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1600" height="520" fill="url(#bgB)"/>
+
+  <!-- Diagonal brand ribbon from top-right -->
+  <path d="M1600 0 L1600 0 L1600 520 L1120 520 C1220 420 1380 220 1600 120 Z" fill="url(#brandB)" opacity="0.10"/>
+
+  <!-- Concentric arcs (subtle signal rings) -->
+  <g fill="none" stroke="#204EB8" stroke-opacity="0.10" stroke-width="2">
+    <path d="M1180,90 A260,260 0 0 1 1560,250" />
+    <path d="M1120,60 A320,320 0 0 1 1580,260" />
+    <path d="M1060,40 A380,380 0 0 1 1580,300" />
+  </g>
+
+  <!-- Bottom wave (brand) -->
+  <path d="M0,480 C 240,520 520,460 760,500 C 1000,540 1280,500 1600,520 L1600,520 L0,520 Z" fill="url(#brandB)" opacity="0.12"/>
+
+  <!-- Accent gold swoosh under hero copy -->
+  <path d="M360 340 C520 320 720 350 880 330 C980 320 1060 330 1140 340" stroke="url(#goldB)" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.65"/>
+
+  <!-- Minimal nodes (left-mid) -->
+  <g stroke="#204EB8" stroke-width="2" opacity="0.22" fill="none">
+    <line x1="160" y1="170" x2="300" y2="170"/>
+    <line x1="300" y1="170" x2="360" y2="220"/>
+    <circle cx="160" cy="170" r="4" fill="#204EB8"/>
+    <circle cx="300" cy="170" r="4" fill="#204EB8"/>
+    <circle cx="360" cy="220" r="4" fill="#204EB8"/>
+  </g>
+
+  <!-- Pictograms (very light, tucked right) -->
+  <g stroke="#204EB8" stroke-width="2" opacity="0.26" fill="none">
+    <rect x="1240" y="120" width="96" height="62" rx="10"/>
+    <path d="M1240 128 L1288 160 L1336 128"/>
+    <rect x="1368" y="120" width="58" height="102" rx="12"/>
+    <rect x="1386" y="132" width="22" height="4" rx="2"/>
+    <circle cx="1397" cy="206" r="4"/>
+    <path d="M1500 132 C1476 132 1458 150 1458 172 C1458 197 1486 220 1500 236 C1514 220 1542 197 1542 172 C1542 150 1524 132 1500 132 Z"/>
+    <circle cx="1500" cy="172" r="10"/>
+  </g>
+
+  <!-- Safe copy area -->
+  <rect x="340" y="120" width="920" height="260" fill="#ffffff" opacity="0.0"/>
+</svg>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1600" height="520" viewBox="0 0 1600 520" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F7FAFF"/>
+      <stop offset="1" stop-color="#EFF3FF"/>
+    </linearGradient>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#204EB8"/>
+      <stop offset="1" stop-color="#678EE0"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFCC33"/>
+      <stop offset="1" stop-color="#FFD76B"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1600" height="520" fill="url(#bg)"/>
+
+  <!-- Accent ribbon -->
+  <path d="M1250 40 C1400 40 1500 90 1560 140 L1560 180 C1500 130 1400 100 1250 100 Z"
+        fill="url(#accent)" opacity="0.28"/>
+
+  <!-- Brand waves (bottom-right) -->
+  <path d="M920,470 C1100,420 1320,520 1600,460 L1600,520 L920,520 Z" fill="url(#brand)" opacity="0.12"/>
+  <path d="M940,500 C1180,450 1380,520 1600,490 L1600,520 L940,520 Z" fill="url(#brand)" opacity="0.10"/>
+
+  <!-- Subtle connection nodes (left) -->
+  <circle cx="180" cy="150" r="5" fill="#204EB8" opacity="0.22"/>
+  <circle cx="300" cy="150" r="5" fill="#204EB8" opacity="0.22"/>
+  <circle cx="360" cy="200" r="5" fill="#204EB8" opacity="0.22"/>
+  <line x1="185" y1="150" x2="295" y2="150" stroke="#204EB8" stroke-width="2" opacity="0.22"/>
+  <line x1="300" y1="150" x2="360" y2="200" stroke="#204EB8" stroke-width="2" opacity="0.22"/>
+
+  <circle cx="220" cy="240" r="5" fill="#204EB8" opacity="0.22"/>
+  <circle cx="380" cy="300" r="5" fill="#204EB8" opacity="0.22"/>
+  <line x1="220" y1="240" x2="320" y2="240" stroke="#204EB8" stroke-width="2" opacity="0.22"/>
+  <line x1="320" y1="240" x2="380" y2="300" stroke="#204EB8" stroke-width="2" opacity="0.22"/>
+
+  <!-- Communication pictograms (stroke only) -->
+  <!-- Envelope -->
+  <rect x="1220" y="120" width="96" height="62" rx="10" fill="none" stroke="#204EB8" stroke-width="2" opacity="0.28"/>
+  <path d="M1220 128 L1268 160 L1316 128" fill="none" stroke="#204EB8" stroke-width="2" opacity="0.28"/>
+
+  <!-- Phone -->
+  <rect x="1334" y="120" width="58" height="102" rx="12" fill="none" stroke="#204EB8" stroke-width="2" opacity="0.28"/>
+  <rect x="1352" y="132" width="22" height="4" rx="2" fill="#204EB8" opacity="0.28"/>
+  <circle cx="1363" cy="206" r="4" fill="#204EB8" opacity="0.28"/>
+
+  <!-- Pin -->
+  <path d="M1490 132 C1466 132 1448 150 1448 172 C1448 197 1476 220 1490 236 C1504 220 1532 197 1532 172 C1532 150 1514 132 1490 132 Z"
+        fill="none" stroke="#204EB8" stroke-width="2" opacity="0.28"/>
+  <circle cx="1490" cy="172" r="10" fill="none" stroke="#204EB8" stroke-width="2" opacity="0.28"/>
+</svg>

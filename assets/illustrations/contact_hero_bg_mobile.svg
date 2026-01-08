@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="900" height="680" viewBox="0 0 900 680" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgm" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F7FAFF"/>
+      <stop offset="1" stop-color="#EFF3FF"/>
+    </linearGradient>
+    <linearGradient id="brandm" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#204EB8"/>
+      <stop offset="1" stop-color="#678EE0"/>
+    </linearGradient>
+    <linearGradient id="accentm" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFCC33"/>
+      <stop offset="1" stop-color="#FFD76B"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="680" fill="url(#bgm)"/>
+
+  <!-- Accent circle -->
+  <circle cx="780" cy="70" r="44" fill="url(#accentm)" opacity="0.28"/>
+
+  <!-- Brand waves bottom -->
+  <path d="M0,560 C180,600 360,540 540,590 C700,630 820,600 900,610 L900,680 L0,680 Z" fill="url(#brandm)" opacity="0.12"/>
+  <path d="M0,590 C200,630 420,560 620,610 C760,640 850,620 900,630 L900,680 L0,680 Z" fill="url(#brandm)" opacity="0.10"/>
+
+  <!-- Minimal connection motif -->
+  <circle cx="90" y="320" r="5" fill="#204EB8" opacity="0.22"/>
+  <circle cx="170" y="320" r="5" fill="#204EB8" opacity="0.22"/>
+  <circle cx="220" y="370" r="5" fill="#204EB8" opacity="0.22"/>
+  <line x1="95" y1="320" x2="165" y2="320" stroke="#204EB8" stroke-width="2" opacity="0.22"/>
+  <line x1="170" y1="320" x2="220" y2="370" stroke="#204EB8" stroke-width="2" opacity="0.22"/>
+
+  <!-- Pictograms -->
+  <rect x="640" y="150" width="110" height="72" rx="12" fill="none" stroke="#204EB8" stroke-width="2" opacity="0.28"/>
+  <path d="M640 162 L695 200 L750 162" fill="none" stroke="#204EB8" stroke-width="2" opacity="0.28"/>
+
+  <rect x="80" y="300" width="70" height="120" rx="14" fill="none" stroke="#204EB8" stroke-width="2" opacity="0.28"/>
+  <rect x="101" y="314" width="28" height="5" rx="2.5" fill="#204EB8" opacity="0.28"/>
+  <circle cx="116" cy="404" r="5" fill="#204EB8" opacity="0.28"/>
+
+  <path d="M780 290 C756 290 736 310 736 334 C736 364 768 388 780 408 C792 388 824 364 824 334 C824 310 804 290 780 290 Z"
+        fill="none" stroke="#204EB8" stroke-width="2" opacity="0.28"/>
+  <circle cx="780" cy="334" r="12" fill="none" stroke="#204EB8" stroke-width="2" opacity="0.28"/>
+</svg>

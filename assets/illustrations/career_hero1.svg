@@ -1,0 +1,45 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg5" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F8FAFF"/>
+      <stop offset="1" stop-color="#EAF0FF"/>
+    </linearGradient>
+    <linearGradient id="lineBlue" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#204EB8" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#678EE0" stop-opacity="0.10"/>
+    </linearGradient>
+    <radialGradient id="nodeGold" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FFCC33" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#FFCC33" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg5)"/>
+
+  <!-- network lines -->
+  <g stroke="url(#lineBlue)" stroke-width="2" opacity="0.55">
+    <line x1="140" y1="180" x2="460" y2="260"/>
+    <line x1="460" y1="260" x2="760" y2="200"/>
+    <line x1="760" y1="200" x2="1100" y2="300"/>
+    <line x1="1100" y1="300" x2="1420" y2="220"/>
+    <line x1="280" y1="520" x2="620" y2="440"/>
+    <line x1="620" y1="440" x2="980" y2="520"/>
+    <line x1="980" y1="520" x2="1320" y2="460"/>
+  </g>
+
+  <!-- nodes -->
+  <g>
+    <circle cx="140" cy="180" r="6" fill="#204EB8" opacity="0.6"/>
+    <circle cx="460" cy="260" r="6" fill="#678EE0" opacity="0.6"/>
+    <circle cx="760" cy="200" r="6" fill="#204EB8" opacity="0.6"/>
+    <circle cx="1100" cy="300" r="6" fill="#678EE0" opacity="0.6"/>
+    <circle cx="1420" cy="220" r="6" fill="#204EB8" opacity="0.6"/>
+    <circle cx="280" cy="520" r="6" fill="#678EE0" opacity="0.6"/>
+    <circle cx="620" cy="440" r="6" fill="#204EB8" opacity="0.6"/>
+    <circle cx="980" cy="520" r="6" fill="#678EE0" opacity="0.6"/>
+    <circle cx="1320" cy="460" r="6" fill="#204EB8" opacity="0.6"/>
+  </g>
+
+  <!-- soft golden glow -->
+  <circle cx="1240" cy="720" r="180" fill="url(#nodeGold)"/>
+</svg>
