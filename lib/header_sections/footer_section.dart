@@ -392,9 +392,9 @@ class _FooterSectionState extends State<FooterSection> {
                 style: linkStyle,
               ),
               _FooterLink(
-                'Privacy Policy (soon)',
-                () {},
-                style: linkStyle.copyWith(color: Colors.white54),
+                'Privacy Policy',
+                () => _go(context, '/privacy_policy'),
+                style: linkStyle,
               ),
               _FooterLink(
                 'Terms of Service (soon)',

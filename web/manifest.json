@@ -1,11 +1,11 @@
 {
-    "name": "tech_terrain_web",
-    "short_name": "tech_terrain_web",
+    "name": "Tech Terrain IT Ltd.",
+    "short_name": "Tech Terrain IT",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
+    "background_color": "#F8FAFF",
     "theme_color": "#0175C2",
-    "description": "Tech Terrain IT Website",
+    "description": "Tech Terrain IT Ltd. is a software company delivering HealthTech, ERP/HRM/CRM, GovTech and custom solutions. Flagship: Rehab HIS powering CRP.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

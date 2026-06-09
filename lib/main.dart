@@ -5,6 +5,7 @@ import 'package:flutter_web_plugins/flutter_web_plugins.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:go_router/go_router.dart';
 import 'package:tech_terrain_web/core/loading_overlay.dart';
+import 'package:tech_terrain_web/privacy/privacy_policy_page.dart';
 import 'package:tech_terrain_web/screens/about_page.dart';
 import 'package:tech_terrain_web/screens/careers_page.dart';
 import 'package:tech_terrain_web/screens/contact_page.dart';
@@ -156,6 +157,11 @@ final _router = GoRouter(
           path: '/contact',
           name: 'contact',
           builder: (context, state) => const ContactPage(),
+        ),
+        GoRoute(
+          path: '/privacy_policy',
+          name: 'privacy_policy',
+          builder: (context, state) => const PrivacyPolicyPage(),
         ),
       ],
     ),
